@@ -1,0 +1,92 @@
+body {
+    font-style: normal;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit";
+    color: black;
+    font-weight: 200;
+    font-size: 16px;
+}
+@media screen {
+    .container {
+        padding: 40px;
+        max-width: 70%;
+        background-color:white;
+        border-radius: 20px;
+    }
+
+    .mainImg {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .defaultUl li {
+        padding: 10px 0 0 10px;
+    }
+
+    .defaultUl.pink li::marker {
+        color: hsl(333, 41%, 5%);
+    }
+
+    .defaultOl li {
+        padding: 10px 0 0 10px;
+    }
+
+    ::marker {
+        color: hsl(333, 41%, 5%);
+        font-weight: normal;
+        font-size: small;
+    }
+
+    li:first-child {
+        padding-top: 0;
+    }
+
+    .preparationBox {
+        padding: 6px 20px 8px;
+        background-color: white;
+        font-family: "Outfit";
+        border-radius: 10px;
+    }
+
+    .defaultHeadline {
+        font-family: "Young Serif";
+        color: hsl(333, 41%, 5%);
+        font-weight: 200;
+    }
+
+    .defaultHeadline.main {
+        font-family: "Young Serif";
+        color: black;
+        font-size: xx-large;
+    }
+
+    .defaultHeadline.pink {
+        color: hsl(333, 41%, 5%);
+        font-family: "Outfit";
+    }
+
+    hr {
+        padding-top: 35px;
+        border: none;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    .defaultTable {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .defaultTable tr:not(:last-child) {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    .defaultTable td {
+        padding: 20px 0 10px 0;;
+    }
+
+    .defaultTable b {
+        color: hsl(333, 41%, 5%);
+    }
+}
